@@ -1,0 +1,11 @@
+.iconButton {
+  marginleft: "6rem";
+}
+
+.logoText {
+  flexgrow: 0.2;
+}
+
+.btn {
+  borderradius: "10px";
+}
