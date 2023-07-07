@@ -4,6 +4,9 @@ export const theme = createTheme({
     palette: {
         info: {
             main: '#FED11F'
+        },
+        light: {
+            main: '#fff'
         }
     }
 })
