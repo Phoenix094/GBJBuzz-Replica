@@ -24,7 +24,7 @@ export const style = {
     },
     secondaryText: {
         fontWeight: '900',
-        marginLeft: '8rem'
+        // marginLeft: '8rem'
     },
     imgDiv: {
         position: 'relative',
