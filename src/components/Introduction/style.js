@@ -13,6 +13,7 @@ export const style = {
     secondaryContainer: {
         position: 'relative',
         left: '6rem',
+        top: '9rem',
         display: 'block',
         textAlign: 'start'
 
