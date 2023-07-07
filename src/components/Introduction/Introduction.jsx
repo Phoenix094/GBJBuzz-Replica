@@ -34,7 +34,7 @@ const Introduction = () => {
                 </div>
             </div>
             {/* Services Continer */}
-            <Stack flexDirection='row' sx={secondContainer}>
+            <Stack sx={secondContainer}>
                 <div id="mainInformationContiner" >
                     <div id="headingContainer">
                         <Typography variant="h4" sx={subHeading}>
