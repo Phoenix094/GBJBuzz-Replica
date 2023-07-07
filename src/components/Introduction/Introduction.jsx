@@ -9,7 +9,7 @@ const Introduction = () => {
     return (
         <div style={container}>
             {/* Text Container */}
-            <Stack sx={secondaryContainer} textAlign='start' direction='row'>
+            <Stack sx={secondaryContainer} textAlign='start' direction='row' component='div'>
 
                 <Typography variant="h2" component='div' color='text.primary' sx={primaryText}>
                     Grow Your Business With

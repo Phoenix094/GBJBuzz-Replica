@@ -6,7 +6,7 @@ import logo from '../../images/logo.png'
 const Navbar = () => {
     return (
 
-        <AppBar color="inherit" sx={{ padding: '5px 0 5px 0' }} >
+        <AppBar color="inherit" sx={{ padding: '5px 0 5px 0' }} position="static">
             <Toolbar> {/*  Toolbar for padding in Navbar on both side */}
                 {/* Icon Button Component for Logo */}
                 <IconButton aria-label="logo" sx={{ marginLeft: '6rem' }}>

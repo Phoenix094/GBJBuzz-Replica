@@ -3,7 +3,7 @@ export const style = {
         background: 'linear-gradient(to bottom left,  rgb(254,236,156) 10%, white 30% )',
         height: '100vh',
         position: 'relative',
-        top: '6rem',
+        top: '5px',
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'space-around',
@@ -12,7 +12,6 @@ export const style = {
     },
     secondaryContainer: {
         position: 'relative',
-        top: '9rem',
         left: '6rem',
         display: 'block',
         // flexDirection: 'column',
