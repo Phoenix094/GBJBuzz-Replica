@@ -7,6 +7,9 @@ export const theme = createTheme({
         },
         light: {
             main: '#fff'
+        },
+        dark: {
+            main: '#000'
         }
     }
 })

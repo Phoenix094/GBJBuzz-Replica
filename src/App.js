@@ -9,6 +9,7 @@ import LeftImgCard from "./components/Cards/LeftImgCard"
 import card1 from './images/card1.png'
 import card2 from './images/card2.png'
 import card3 from './images/card3.png'
+import Footer from "./components/Footer/Footer"
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
       </Paper>
       <Branding />
       <ContactUs />
+      <Footer />
 
     </div>
   )
