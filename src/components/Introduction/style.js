@@ -1,7 +1,7 @@
 export const style = {
     container: {
         background: 'linear-gradient(to bottom left,  rgb(254,236,156) 10%, white 30% )',
-        height: '100vh',
+        height: '90vh',
         position: 'relative',
         top: '5px',
         display: 'flex',
@@ -24,7 +24,6 @@ export const style = {
     },
     secondaryText: {
         fontWeight: '900',
-        // marginLeft: '8rem'
     },
     imgDiv: {
         position: 'relative',
@@ -35,7 +34,24 @@ export const style = {
         position: 'relative',
         top: '5rem',
         width: '25rem',
-        borderRadius: '1rem'
+        borderRadius: '1rem',
+        boxShadow: '0px 7px 6px #000'
+    },
+
+    secondContainer: {
+        position: 'relative',
+        left: '6rem',
+    },
+    subHeading: {
+        fontWeight: '900',
+    },
+    informationContainer: {
+        position: 'relative',
+        top: '1rem',
+        display: 'flex',
+        flexDirection: 'row',
+        color: 'grey',
+        fontWeight: 'bolder'
     }
 
 }
