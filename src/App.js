@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar/Navbar"
 import Introduction from "./components/Introduction/Introduction"
+import Branding from "./components/Branding/Branding"
 
 const App = () => {
   return (
@@ -7,6 +8,7 @@ const App = () => {
 
       <Navbar />
       <Introduction />
+      <Branding />
 
     </div>
   )
