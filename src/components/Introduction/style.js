@@ -14,8 +14,6 @@ export const style = {
         position: 'relative',
         left: '6rem',
         display: 'block',
-        // flexDirection: 'column',
-        // justifyContent: 'start'
         textAlign: 'start'
 
     },
