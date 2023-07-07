@@ -1,3 +1,5 @@
+import { Paper, Stack } from "@mui/material"
+
 import Navbar from "./components/Navbar/Navbar"
 import Introduction from "./components/Introduction/Introduction"
 import Branding from "./components/Branding/Branding"
@@ -7,14 +9,16 @@ import LeftImgCard from "./components/Cards/LeftImgCard"
 import card1 from './images/card1.png'
 import card2 from './images/card2.png'
 import card3 from './images/card3.png'
-import { Paper, Stack } from "@mui/material"
 
 const App = () => {
   return (
     <div className="app">
 
       <Navbar />
-      <Introduction />
+      <Paper elevation={4}>
+        <Introduction />
+
+      </Paper>
       <Paper elevation={4}>
         <Stack direction='column' spacing={4} py={9}>
 

@@ -3,7 +3,8 @@ export const styles = {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '100vh'
+        height: '100vh',
+        background: 'radial-gradient(circle, #FFF6D9, #fff)'
     },
     primartFont: {
         fontWeight: 900,
